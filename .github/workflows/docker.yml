@@ -20,4 +20,4 @@ jobs:
         docker build . -t heartbyte/ab-playground:latest             
     - name: ab-playground push 
       run : |
-        docker push abigillu/playground:latest
+        docker push abigillu/ab-playground:latest
