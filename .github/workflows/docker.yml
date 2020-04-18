@@ -17,7 +17,7 @@ jobs:
         echo "$DOCKER_KEY" | docker login docker.io --username $DOCKER_ID  --password-stdin
     - name: ab-heartbyte build
       run: |
-        docker build . -t ab-playground:latest             
+        docker build . -t abigillu/ab-playground:latest             
     - name: ab-playground push 
       run : |
         docker push abigillu/ab-playground:latest
